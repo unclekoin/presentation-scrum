@@ -1,40 +1,184 @@
 <!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<html lang="en">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>reveal.js - Slide Transitions</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+	<link rel="stylesheet" href="../dist/reveal.css">
+	<link rel="stylesheet" href="../dist/theme/white.css" id="theme">
+	<style type="text/css" media="screen">
+		.slides section.has-dark-background,
+		.slides section.has-dark-background h1,
+		.slides section.has-dark-background h2,
+		.slides section.has-dark-background h3,
+		.slides section.has-dark-background h4 {
+			color: #ced6e0;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<div class="slides">
+
+			<section style="position: relative;" data-background="#0a3d62">
+				<img style="position: absolute; height: 8rem; margin: 0; z-index: -10; top: -2rem; left: 33%;"
+					src="./assets/images/scrum.png" alt="logo">
+				<h2 class="title">SCRUM</h2>
+				<p style="margin-bottom: 4rem;">
+					<q style="display: block;">Scrum helps people and teams deliver value incrementally in a collaborative
+						manner...</q>
+					<a style="display: block; padding-right: 3rem; font-size: 2rem; text-align: right; color: inherit;"
+						href="https://www.scrum.org/">scrum.org</a>
+				</p>
+				<p style="font-size: 2rem;">Presentation by Pavel Koryakin</p>
+			</section>
+
+			<section data-background="#0a3d62" data-transition="zoom">
+				<section>
+					<h1>Agile</h1>
+				</section>
+				<section>
+					<h4>Manifesto for Agile Software Development</h4>
+				</section>
+				<section style="text-align: left;">
+					<p>We are uncovering better ways of developing software by doing it and helping others do it.</p>
+					<p>Through this work we have come to value:</p>
+				</section>
+				<section style="text-align: left; font-size: 2.2rem;">
+					<ul>
+						<li>Individuals and interactions over processes and tools</li>
+						<li>Working software over comprehensive documentation</li>
+						<li>Customer collaboration over contract negotiation</li>
+						<li>Responding to change over following a plan</li>
+					</ul>
+				</section>
+				<section style="text-align: left;">
+					<p>That is, while there is value in the items on the right, we value the items on the left more.</p>
+				</section>
+			</section>
+
+			<section data-transition="zoom" data-background="#0a3d62">
+				<section>
+					<h1>Scrum</h1>
+				</section>
+			</section>
+
+			<section data-transition="zoom" data-background="#0a3d62">
+				<section>
+					<h4>Scrum</h4>
+					<h2>History</h2>
+				</section>
+				<section>
+					<ul style="font-size: 1.4rem;">
+						<li>1986 — Harvard Business Review article, 'The New Product Development Game'</li>
+						<li>1990 — Schwaber used what would become Scrum at his company</li>
+						<li>1995 — Sutherland and Schwaber presented the Scrum framework</li>
+						<li>2001 — Schwaber and Beedle wrote the book, 'Agile Software Development with Scrum'</li>
+						<li>2002 — Schwaber with others founded the Scrum Alliance</li>
+						<li>2009 — Schwaber founded Scrum.org</li>
+						<li>2009 — Schwaber and Sutherland published 'The Scrum Guide'</li>
+						<li>2020 — latest version 'The Scrum Guide'</li>
+					</ul>
+				</section>
+			</section>
+
+			<section data-transition="zoom" data-background="#0a3d62">
+				<section>
+					<h4>Scrum</h4>
+					<h2>Definition</h2>
+				</section>
+				<section>
+					<ol style="font-size: 1.4rem;">
+						<li>A Product Owner orders the work for a complex problem into a Product Backlog.</li>
+						<li>The Scrum Team turns a selection of the work into an Increment of value during a Sprint.</li>
+						<li>The Scrum Team and its stakeholders inspect the results and adjust for the next Sprint.</li>
+						<li>Repeat</li>
+					</ol>
+				</section>
+				<section>
+					<img src="./assets/images/scrum-process.jpeg" alt="">
+				</section>
+			</section>
+
+			<section data-transition="zoom" data-background="#0a3d62">
+				<section>
+					<h4>Scrum</h4>
+					<h2>Team</h2>
+				</section>
+				<section>
+					<ol>
+						<li>Developers</li>
+						<li>Product Owner</li>
+						<li>Scrum Master</li>
+					</ol>
+				</section>
+				<section>
+					<img src="./assets/images/scrum-process.jpeg" alt="">
+				</section>
+			</section>
+
+			<section data-transition="zoom" data-background="#0a3d62">
+				<section>
+					<h4>Scrum</h4>
+					<h2>Events</h2>
+				</section>
+				<section>
+					<ol>
+						<li>Sprint</li>
+						<li>Sprint Planning</li>
+						<li>Daily Scrum</li>
+						<li>Sprint Review</li>
+						<li>Sprint Retrospective</li>
+					</ol>
+				</section>
+				<section>
+					<img src="./assets/images/scrum-process.jpeg" alt="">
+				</section>
+			</section>
+
+			<section data-transition="zoom" data-background="#0a3d62">
+				<section>
+					<h4>Scrum</h4>
+					<h2>Artifacts</h2>
+				</section>
+				<section>
+					<ol>
+						<li>Product Backlog</li>
+						<li>Sprint Backlog</li>
+						<li>Increment</li>
+					</ol>
+				</section>
+				<section>
+					<img src="./assets/images/scrum-process.jpeg" alt="">
+				</section>
+			</section>
+
+			<section data-transition="zoom" data-background="#0a3d62">
+				<section>
+					<div style="font-size: 4rem;">Thanks for watching</div>
+				</section>
+			</section>
+
 		</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	</div>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+	<script src="../dist/reveal.js"></script>
+	<script>
+		Reveal.initialize({
+			center: true,
+			history: true,
+			transition: 'slide',
+			transitionSpeed: 'slow',
+			backgroundTransition: 'slide'
+		});
+	</script>
+
+</body>
+
 </html>
